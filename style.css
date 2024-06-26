@@ -1,0 +1,113 @@
+
+body {
+  font-family: Nunito;
+  
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url('pizza.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+.table-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(255, 0, 0, 0.7);
+  margin-top: 20px;
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 100px;
+}
+
+table {
+    width: 100%;
+    border-radius: 8px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow: hidden;
+  background-color: rgb(128, 108, 198, 0.6);
+}
+
+
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+th {
+    background-color: #133867;
+    color: white;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #cbe1e1;
+
+}
+
+button {
+    background-color: #365491;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0a1843;
+   transition-duration: 0.7s;
+}
+
+button.remove-row {
+    background-color: #365491;
+}
+
+button.remove-row:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+.gpa-result {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.gpa-result h3 {
+    margin: 0 0 10px 0;
+}
+
+.gpa-result p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.reset-button {
+    display: block;
+    margin: -37px 0 0 auto;
+    
+    
+}
